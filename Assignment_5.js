@@ -3,8 +3,8 @@
 
 const account = {
   userId: 101,
-  fullName: "Ravi",
-  mail: "ravi@gmail.com",
+  fullName: "divua",
+  mail: "divya@gmail.com",
   role: "student",
   active: true
 };
@@ -85,3 +85,4 @@ delete appSettings.notifications;
 
 // Freeze settings
 Object.freeze(appSettings);
+
