@@ -1,0 +1,30 @@
+###read all users
+GET http://127.0.0.1:7777/user-api/users
+###
+
+###read user by object id
+GET http://127.0.0.1:7777/user-api/users/697dd5a23fe4b5aa111ff0cb
+
+
+###create users
+POST http://127.0.0.1:7777/user-api/users
+Content-Type: application/json
+
+{
+    "username":"jahnavi",
+    "password":"123",
+    "age" : 19
+}
+###
+### modify existing user 
+PUT http://127.0.0.1:7777/user-api/users/697dd75a804ce56e4588ea3e
+Content-Type: application/json
+
+{
+    "username":"mohini",
+    "password":"moha22",
+    "age":12
+}
+###
+###delete user
+DELETE http://127.0.0.1:7777/user-api/users/697dbb0ad71c3b3315a95ed9

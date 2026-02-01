@@ -1,0 +1,27 @@
+get http://127.0.0.1:7777/product-api/products
+
+###
+
+//get by objectid 
+get http://127.0.0.1:7777/product-api/products/1229
+
+###
+//add products
+
+POST http://127.0.0.1:7777/product-api/products
+Content-Type: application/json
+
+{
+    "pid":1229,
+    "productName": "icecream",
+    "price":3000
+}
+###
+PUT http://127.0.0.1:7777/product-api/products/1229
+Content-Type: application/json
+
+{
+    "pid":1280,
+    "productName":"choclate",
+    "price":95
+}
