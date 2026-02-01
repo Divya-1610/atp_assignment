@@ -1,0 +1,17 @@
+{
+  "name": "30jan",
+  "version": "1.0.0",
+  "description": "REST API - representational state transfer - used to define api - REST API endpoints:     - identifiees specific router for a specific request     - handles requests     - strucuture : (https://api.example)/(users)/(123)-base url+ endpoint path(resource+id)     - endpoint is a url      - underscores are invalid in urlpath - backend testing tool : REST client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}

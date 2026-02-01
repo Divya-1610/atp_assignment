@@ -1,0 +1,26 @@
+GET http://127.0.0.1:4000/user-api/users
+###
+
+POST http://127.0.0.1:4000/user-api/users
+Content-Type: application/json
+
+
+{
+    "id":11,
+    "name":"divya",
+    "age":19
+}
+
+###
+
+PUT http://127.0.0.1:4000/user-api/users/11
+Content-Type: application/json
+
+{
+    "id":11,
+    "name":"ravi",
+    "age":21
+}
+###
+
+DELETE http://127.0.0.1:4000/user-api/users/11
